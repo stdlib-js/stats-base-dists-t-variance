@@ -76,7 +76,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.variance;
+})();
 })();
 </script>
 ```
@@ -142,6 +144,7 @@ y = variance( 0.8 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var v;
 var y;
@@ -153,6 +156,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'v: %d, Var(X,v): %d', v.toFixed( 4 ), y.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
