@@ -71,6 +71,11 @@ For `ν` smaller than one, the variance is not defined.
 To use in Observable,
 
 ```javascript
+variance = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-t-variance/tags). For example,
+
+```javascript
 variance = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@v0.1.0-umd/browser.js' )
 ```
 
@@ -83,7 +88,7 @@ var variance = require( 'path/to/vendor/umd/stats-base-dists-t-variance/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -154,7 +159,7 @@ y = variance( 0.8 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
