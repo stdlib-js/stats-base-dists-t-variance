@@ -69,7 +69,7 @@ For `ν` smaller than one, the variance is not defined.
 ## Usage
 
 ```javascript
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@esm/index.mjs';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@v0.2.0-esm/index.mjs';
 ```
 
 #### variance( v )
@@ -132,7 +132,7 @@ y = variance( 0.8 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@esm/index.mjs';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@v0.2.0-esm/index.mjs';
 
 var v;
 var y;
