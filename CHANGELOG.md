@@ -34,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`b46839a`](https://github.com/stdlib-js/stdlib/commit/b46839a757385ec10d3056643983776678239fe4) - **chore:** remove trailing spaces _(by Philipp Burckhardt)_
+-   [`6df3667`](https://github.com/stdlib-js/stdlib/commit/6df366771b3a460e20c2ac2bb3dafbf7f267e785) - **test:** move require to module scope _(by Philipp Burckhardt)_
 -   [`9e54cc2`](https://github.com/stdlib-js/stdlib/commit/9e54cc27d2e2e7e986b93b7be2d37f9fb4bc3b5d) - **feat:** add C implementation for `stats/base/dists/t/variance` [(#3912)](https://github.com/stdlib-js/stdlib/pull/3912) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 
 </details>
