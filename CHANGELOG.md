@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-19)
+## Unreleased (2025-12-31)
 
 <section class="features">
 
@@ -34,6 +34,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`e682423`](https://github.com/stdlib-js/stdlib/commit/e6824239d2ebe1dfdc4397ab6e0da2151ac131aa) - **docs:** replace manual `for` loop in examples [(#9456)](https://github.com/stdlib-js/stdlib/pull/9456) _(by Harsh Yadav)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`b46839a`](https://github.com/stdlib-js/stdlib/commit/b46839a757385ec10d3056643983776678239fe4) - **chore:** remove trailing spaces _(by Philipp Burckhardt)_
 -   [`6df3667`](https://github.com/stdlib-js/stdlib/commit/6df366771b3a460e20c2ac2bb3dafbf7f267e785) - **test:** move require to module scope _(by Philipp Burckhardt)_
 -   [`9e54cc2`](https://github.com/stdlib-js/stdlib/commit/9e54cc27d2e2e7e986b93b7be2d37f9fb4bc3b5d) - **feat:** add C implementation for `stats/base/dists/t/variance` [(#3912)](https://github.com/stdlib-js/stdlib/pull/3912) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
@@ -48,9 +51,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
