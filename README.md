@@ -69,7 +69,7 @@ For `ν` smaller than one, the variance is not defined.
 ## Usage
 
 ```javascript
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@esm/index.mjs';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@v0.3.1-esm/index.mjs';
 ```
 
 #### variance( v )
@@ -132,7 +132,7 @@ y = variance( 0.8 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@esm/index.mjs';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-variance@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
