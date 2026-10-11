@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8c87ef1`](https://github.com/stdlib-js/stdlib/commit/8c87ef14112c309a4e73a4719a420a08467cd371) - **test:** migrate `stats/base/dists/t/variance` to ULP-based assertions [(#16020)](https://github.com/stdlib-js/stdlib/pull/16020) _(by Athan Reines)_
 -   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
